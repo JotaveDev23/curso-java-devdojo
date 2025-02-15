@@ -47,9 +47,34 @@ public class Aula04Operadores {
 
         double valorTotalContaCorrente = 200;
         double valorTotalContaPoupança = 10000;
-        float valorPlaystation = 5000F;
+        float valorPlaystation = 5000F; //forçando um float
         boolean isPlaystation5Compravel =  valorTotalContaCorrente > valorPlaystation || valorTotalContaPoupança > valorPlaystation;
         //código está checando com qual conta eu conseguiria comprar o playstation
         System.out.println("PS5 é comprável " + isPlaystation5Compravel);
+
+        //operadores de atribuição ( são atribuidores que vão atribuir algo a minha variável
+        // =  += -= *= /= %=
+
+        double bonus = 1800;
+        //caso queira adicionar mais valor eu não preciso fazer bonus = bonus + 1000 en posso fazer da seguinte forma
+        bonus += 1000;
+        bonus -= 1000;
+        bonus *= 2;
+        bonus /= 2;
+        bonus %= 2;
+        System.out.println(bonus);
+
+        //++ --
+        int contador = 0;
+        contador += 1; //contador = contador + 1;
+
+        contador++;
+        contador--;
+        //está fazendo a mesma coisa que o de cima, porém de uma forma mais rápida e reduzida
+        --contador;
+        ++contador;
+        int contador2 = 0;
+        System.out.println(++contador2);//se eu colocar o sinal dps da variavel, ele vai imprimir a variável primeiro como no ex. abaixo
+        System.out.println(contador2++);
     }
 }

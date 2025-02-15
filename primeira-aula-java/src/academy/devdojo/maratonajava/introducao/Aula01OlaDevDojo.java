@@ -10,6 +10,6 @@ public class Aula01OlaDevDojo {
     isso é um comentário de multiplas linhas
      */
     public static void main(String[] args) {
-    System.out.println("EU VOU DOMINAR");
+        System.out.println("EU VOU DOMINAR");
     }
 }
