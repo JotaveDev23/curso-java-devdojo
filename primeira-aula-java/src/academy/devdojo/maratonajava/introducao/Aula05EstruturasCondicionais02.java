@@ -27,7 +27,7 @@ public class Aula05EstruturasCondicionais02 {
         } else if (idade >= 15 && idade < 18) { //se não se idade for >= 15 and idade < 18
             categoria = "Categoria Juvenil";
         } else { //se não
-            categoria "Categoria adulto";
+            categoria = "Categoria adulto";
         }
         System.out.println(categoria);
         /*caso eu remova o ultimo else devo adicionar um nome na string para que seja impresso algo
