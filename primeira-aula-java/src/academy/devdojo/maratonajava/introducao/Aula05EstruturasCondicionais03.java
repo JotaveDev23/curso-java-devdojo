@@ -15,6 +15,7 @@ public class Aula05EstruturasCondicionais03 {
 
         //posso simplificar ainda mais fazendo (String resultado = salario > 5000 ? "Eu vou doar 500 para o DevDojo" : "Ainda não posso doar, mas um dia vou conseguir";)
         //e remover as demais strings
+        //para acrescentar mais operador ternario, devo perguntar a condicão
 
         System.out.println(resultado);
 
