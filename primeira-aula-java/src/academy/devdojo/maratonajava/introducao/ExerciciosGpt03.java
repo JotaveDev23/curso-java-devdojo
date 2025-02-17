@@ -17,5 +17,24 @@ Peça ao usuário o valor da compra e exiba o preço final com o desconto aplica
 
         String resultado = valorCompra > 100 && valorCompra <= 500 ? dezConto : valorCompra > 500 ? vinteConto : semDesconto;
         System.out.println(resultado);
+
+        //AREA DO RETANGULO
+        int larguraRetangulo = 10;
+        int alturaRetangulo = 5;
+
+        int areaRetangulo = larguraRetangulo * alturaRetangulo;
+        System.out.println("O valor de area do retangulo é de: " + areaRetangulo);
+
+        double dobroArea = areaRetangulo * 2;
+        System.out.println("O dobro da área é de: " + dobroArea);
+
+        int valorFixo = 150;
+        if (dobroArea > valorFixo){
+            System.out.println("O dobro da área é maior");
+        }else if (dobroArea < valorFixo){
+            System.out.println("O dobro da área é menor");
+        }else{
+            System.out.println("O dobro da área é igual");
+        }
     }
 }
