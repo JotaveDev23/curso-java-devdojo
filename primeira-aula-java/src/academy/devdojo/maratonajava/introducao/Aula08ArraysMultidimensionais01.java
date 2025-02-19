@@ -29,6 +29,13 @@ public class Aula08ArraysMultidimensionais01 {
             }
 
         }
+        for (int[] dia : dias) { //isso aqui cria uma variavel de referencia temporaria
+            for (int i : dia) {
+                System.out.println(i); //é como se fosse um i e j, primeiro ele percorre pelas linhas, e guarda dentro do dia, depois o i pega o valor de cada linha e apresenta
+
+            }
+
+        }
 
 
     }

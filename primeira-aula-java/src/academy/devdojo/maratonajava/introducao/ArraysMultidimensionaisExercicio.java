@@ -35,6 +35,24 @@ public class ArraysMultidimensionaisExercicio {
             // e calcular a média, e depois muda para o segundo aluno e faz o mesmo processo, até finalizar
 
         }
+        int [][] numerosParaSoma = new int [2][3];
+        numerosParaSoma [0][0] = 3;
+        numerosParaSoma [0][1] = 6;
+        numerosParaSoma [0][2] = 9;
+
+        numerosParaSoma [1][0] = 12;
+        numerosParaSoma [1][1] = 15;
+        numerosParaSoma [1][2] = 18;
+
+        int soma01;
+        for (int i = 0; i < numerosParaSoma.length; i++) {//para linha saindo do 0 até tamanho array incremente mais um
+            for (int j = 0; j < numerosParaSoma[i].length; j++) { // para cada array, apresente o que tem dentro da linhas, que são as colunas
+                soma01 = numerosParaSoma [i][j] + 4 ; //aqui eu pego cada linha e acrescento mais 4 nos valores da coluna
+                System.out.println("A soma dos numeros é = " + soma01); // aqui eu pego todas as linhas e mostro o valor reproduzido na soma01
+
+            }
+
+        }
 
 
 
