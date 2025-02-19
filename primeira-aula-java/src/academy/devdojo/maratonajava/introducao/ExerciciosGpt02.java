@@ -9,7 +9,7 @@ public class ExerciciosGpt02 {
 18 a 64 anos → Adulto
 65 anos ou mais → Idoso
          */
-        int idadePessoa = 65;
+        int idadePessoa = 52;
         String classificacao;
 
         if (idadePessoa <= 12) {
@@ -26,7 +26,7 @@ public class ExerciciosGpt02 {
         /* Desafio 9: Calculadora de IMC
 Peça ao usuário o peso (kg) e a altura (m). Calcule o Índice de Massa Corporal (IMC):
          */
-        double peso = 67;
+        double peso = 84;
         double altura = 1.70;
         double altura2 = altura * altura;
         double imc = peso / altura2;
