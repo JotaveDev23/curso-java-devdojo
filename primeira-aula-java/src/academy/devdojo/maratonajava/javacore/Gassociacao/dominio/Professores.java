@@ -15,11 +15,6 @@ public class Professores {
         this.seminarios = seminarios;
     }
 
-    public void imprime(){
-        System.out.print("Professor(a): " + this.nome);
-        System.out.println(" - "+this.especialidade);
-    }
-
     public String getNome() {
         return nome;
     }

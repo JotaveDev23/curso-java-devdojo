@@ -10,6 +10,7 @@ public class SeminariosTest01 {
         Aluno aluno = new Aluno("João Vitor", 20);
         Aluno aluno2 = new Aluno("Marcelo Gomes", 18);
         Professores professores = new Professores("Caio", "Matemática");
+        Professores [] professorSelecionado = {professores};
         Aluno[] alunos = {aluno, aluno2};
 
         Seminarios seminarios2 = new Seminarios("\nSeminario 2", "Escola de Castor");
@@ -18,22 +19,22 @@ public class SeminariosTest01 {
         Professores [] professores1 = {professores};
         Aluno[] alunos2 = {aluno01, aluno2};
 
-        Seminarios seminarios3 = new Seminarios("\nGanhar seleção japão", "Blue Lock");
+        Seminarios seminarios3 = new Seminarios("\nGanhar seleção japão", "Blue Lock"  );
         Aluno aluno11 = new Aluno("Isagi", 17);
         Aluno aluno22 = new Aluno("Nagi", 18);
         Professores professores2 = new Professores("Ego", "Fundador Blue Lock");
+        Professores [] professorSem3 = {professores2};
         Aluno[] alunos3 = {aluno11, aluno22};
 
-        seminarios.setAluno(alunos);
+
         seminarios2.setAluno(alunos2);
         seminarios3.setAluno(alunos3);
-        seminarios2.setProfessores(professores1);
-
+        seminarios.setProfessores(professorSelecionado);
+        seminarios2.setProfessores(professorSelecionado);
+        seminarios3.setProfessores(professorSem3);
         seminarios.imprime();
-        professores.imprime();
         seminarios2.imprime();
         seminarios3.imprime();
-        professores2.imprime();
     }
 
 }

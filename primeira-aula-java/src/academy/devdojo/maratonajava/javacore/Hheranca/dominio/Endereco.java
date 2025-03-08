@@ -1,13 +1,9 @@
 package academy.devdojo.maratonajava.javacore.Hheranca.dominio;
 
-public class Endereço {
+public class Endereco {
     private String rua;
     private String cep;
 
-    public Endereço(String rua, String cep){
-        this.rua = rua;
-        this.cep = cep;
-    }
     public void setRua(String rua){
         this.rua = rua;
     }
