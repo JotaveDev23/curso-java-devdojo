@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.javacore.Eblocosinicializacao.dominio;
 public class Anime {
     private String nome;
     private int [] episodios;
-
+    //0 - Bloco de inicialização estático é executado quando a JVM carregar a classe
     //1 - É alocado espaço em meória pro objeto
     //2 - Cada atributo de classe é criado e iniciados com valores default ou o que for passado
     //3 - Bloco de inicialização é executado
